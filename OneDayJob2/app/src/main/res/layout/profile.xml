@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4fb2ff">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:clickable="true"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFFFFFFF"
+
+        android:id="@+id/profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:elevation="5dp"
+        android:padding="20dp"
+        android:layout_marginLeft="90dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/man" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/profile"
+            android:text="Name Surname"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:text="categories"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/category"
+            android:text="IT  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/it"
+            android:text="House and garden  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/electronic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/house"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Electronic  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/cars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/electronic"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Cars  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/pets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/cars"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Pets  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+
+        <Switch
+            android:id="@+id/sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/pets"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Sport and hobby  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/fashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/sport"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Fashion  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/nursing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/fashion"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Nursing  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/nursing"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="Business  "
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            app:menu="@menu/navigation" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

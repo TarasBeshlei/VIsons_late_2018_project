@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_scheduler"
+        android:icon="@drawable/schedular"
+        android:title="scheduler" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="profile" />
+
+    <item
+        android:id="@+id/navigation_add_deal"
+        android:icon="@drawable/plus"
+        android:title="add deal" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat"
+        android:title="chats" />
+
+    <item
+        android:id="@+id/navigation_active_deal"
+        android:icon="@drawable/active"
+        android:title="active deals" />
+
+</menu>

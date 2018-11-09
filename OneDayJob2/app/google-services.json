@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "459855088319",
+    "firebase_url": "https://onedayjob2.firebaseio.com",
+    "project_id": "onedayjob2",
+    "storage_bucket": "onedayjob2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459855088319:android:f1bde13ab6b34821",
+        "android_client_info": {
+          "package_name": "com.login.mobi.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459855088319-ik1a8rvqdlkh6mctvqip9gro3rhtq6pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.login.mobi.loginapp",
+            "certificate_hash": "8d84d86a349d314bf02dae18ed75dab2beb62e04"
+          }
+        },
+        {
+          "client_id": "459855088319-2jjcipfdl68os2co6ilb253gjsukq42j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xenrDjMh6iScUuQitR9ibRbGOo8yTyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459855088319-2jjcipfdl68os2co6ilb253gjsukq42j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
