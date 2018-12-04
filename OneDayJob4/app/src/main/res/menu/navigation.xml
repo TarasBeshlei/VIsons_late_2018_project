@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_scheduler"
+        android:icon="@drawable/ic_event"
+        android:title="Scheduler" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_add_deal"
+        android:icon="@drawable/plus"
+        android:title="Add deal" />
+
+    <item
+        android:id="@+id/navigation_list"
+        android:icon="@drawable/ic_list"
+        android:title="Deals list" />
+
+    <item
+        android:id="@+id/navigation_active_deal"
+        android:icon="@drawable/ic_business_center"
+        android:title="My deals" />
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add">
+
+    <EditText
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="top"
+        android:hint="Name of deal"
+        android:backgroundTintMode="multiply"
+        android:background="#FFFFFF"
+        android:maxLines="1"
+        android:lines="1"/>
+
+    <EditText
+        android:id="@+id/main"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="top"
+        android:hint="Location"
+        android:backgroundTintMode="multiply"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_below="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="top"
+        android:hint="Description"
+        android:backgroundTintMode="multiply"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_below="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="top"
+        android:hint="Price"
+        android:backgroundTintMode="multiply"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/fist_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/price"
+        android:src="@drawable/add_photo"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/price"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/add_photo"
+        android:layout_alignParentRight="true" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:text="Create"
+        android:textColor="#ffffff"
+        android:background="#000000" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/colorBlack"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
+        android:theme="@style/BottomNavigationTheme"
+        app:menu="@menu/navigation" />
+
+
+</RelativeLayout>

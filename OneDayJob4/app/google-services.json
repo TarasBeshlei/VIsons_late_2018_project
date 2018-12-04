@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "97488569990",
+    "firebase_url": "https://test-final-c062d.firebaseio.com",
+    "project_id": "test-final-c062d",
+    "storage_bucket": "test-final-c062d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97488569990:android:e7cd995a907363fe",
+        "android_client_info": {
+          "package_name": "com.example.severyn.onedayjob4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97488569990-192ln3u5upeabl3jdp2ug15tlue7595e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC65aH9DI5hOPYo7NNcOq3ipt3ddTI8OvI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
